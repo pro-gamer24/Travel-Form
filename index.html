@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="ff.css">
+</head>
+<body>
+    <div>
+                <!-- Programming Practice -->
+                <h1>Travel Form</h1>
+                <form>
+                    <input type="text" placeholder="Enter Your Name">
+                    <br>
+                    <br>
+                    <input type="email" name="email" placeholder="Enter Your Email ID">
+                    <br>
+                    <br>
+                    <input type="number" name="number" placeholder="Age(18+)" max="100" min="18">
+                    <br>
+                    <br>
+                    <select name="state" id="state">
+                        <option value="no-state">Select Your State</option>
+                        <option value="state">West Bengal</option>
+                        <option value="state">Jharkhand</option>
+                        <option value="state">Odisha</option>
+                        <option value="state">Jammu and Kashmir</option>
+                        <option value="state">Kerala</option>
+                        <option value="state">Gujrat</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="sectionida">
+                        <input type="radio" value="Section a" name="Section" id="sectionida">Section A
+                    </label>
+                    <label for="sectionidb">
+                        <input type="radio" value="Section b" name="Section" id="sectionidb">Section B
+                    </label>
+                    <br>
+                    <label for="foodcanteen">
+                    <input type="checkbox" name="yesfood" id="foodcanteen">Less Food
+                    <input type="checkbox" name="nofood" id="foodcanteen">More Food
+                    </label>
+                    <br>
+                    <br>
+                    Select cost:-
+                    <input type="range" name="range" min="500" max="2000"/>
+                    <br>
+                    <br>
+                    Date of departure:- 
+                    <input type="datetime-local">
+                    <br>
+                    <br>
+                    Upload Image:-
+                    <input type="file" accept="image, text" name="file">
+                    <br>
+                    <br>
+                    Choose the colour of bag:-
+                    <input type="color" name="color">
+                    <br>
+                    <br>
+                    <textarea name="explain" id="explainwhy" placeholder="Explain the purpose"></textarea>
+                    <br>
+                    <br>
+                    <label for="verifyit">
+                    <input type="checkbox" name="verify" id="verifyit">Confirm you are not a robot!
+                    </label>
+                    <br>
+                    <a href="pass.html">Submit</a>
+                    <input type="reset" name="reset">
+                </form>
+            </div>
+</body>
+</html>
